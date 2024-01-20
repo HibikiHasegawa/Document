@@ -1,0 +1,16 @@
+git init
+
+git status
+
+git add -A
+
+git status
+
+git commit -m "comment"
+
+git log
+
+git remote add origin git remote add origin https://<user name>:<access token>@github.com/XX/XX.git
+
+git push -u origin main
+
