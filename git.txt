@@ -1,3 +1,7 @@
+ローカルとリモートのブランチ一覧を表示
+git branch -a
+*************************************************
+ローカルファイルをGitHubへ
 git init
 
 git status
@@ -10,7 +14,12 @@ git commit -m "comment"
 
 git log
 
-git remote add origin git remote add origin https://<user name>:<access token>@github.com/XX/XX.git
+git remote add origin  https://<user name>:<access token>@github.com/XX/XX.git
 
 git push -u origin main
+
+*******************************************************************
+GitHub上のファイルをローカルへ
+git clone https://<user name>:<access token>@github.com/XX/XX.git
+
 
